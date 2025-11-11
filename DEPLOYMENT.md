@@ -206,9 +206,9 @@ wrangler deploy
 修改代码后重新部署：
 
 ```bash
-# 1. 提交代码（可选）
-git add .
-git commit -m "Update API logic"
+# 1. 提交代码到 GitHub（可选）
+# 使用 Claude Code 的 MCP GitHub 工具：
+# 请推送更改到 ai-chat-serverless 仓库，提交信息：Update API logic
 
 # 2. 部署
 wrangler deploy
